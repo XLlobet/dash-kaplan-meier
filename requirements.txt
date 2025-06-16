@@ -1,0 +1,2 @@
+dash
+lifelines==0.30.0
