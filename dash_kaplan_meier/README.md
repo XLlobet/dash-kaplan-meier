@@ -59,7 +59,7 @@ app.layout = html.Div([
         hazardRatio     = stats["hazard_ratio"],
         layout          ={  'title': 'Kaplan-Meier Survival Curve Example',
                             "xaxis": {"title": {"text": "Time (months)"}},
-                            "yaxis": {"title": {"text": "Survival Probability"}},},
+                            "yaxis": {"title": {"text": "Survival Probability"}}},
         title           = "Kaplan-Meier curves",
         config          = {'responsive': True}
     )
