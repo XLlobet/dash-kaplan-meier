@@ -1,6 +1,6 @@
 {
   "name": "dash_kaplan_meier",
-  "version": "0.0.1",
+  "version": "0.0.6",
   "description": "Reusable React-based UI for Dash apps that computes and plots a Kaplan-Meier curve entirely using raw event and time-to-event data passed from Dash app. It eliminates analysis libraries, making it lightweight and frontend-driven.",
 "repository": {
     "type": "git",
@@ -21,7 +21,7 @@
     "build": "npm run build:js && npm run build:backends",
     "build:activated": "npm run build:js && npm run build:backends-activated"
   },
-  "author": "Xavier Llobet <llbt.nvs.x@gmail.com>",
+  "author": "Xavier Llobet",
   "license": "MIT",
   "dependencies": {
     "plotly.js-basic-dist": "^3.0.1",

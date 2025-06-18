@@ -58,8 +58,8 @@ app.layout = html.Div([
         coxP            = stats["cox_p"],
         hazardRatio     = stats["hazard_ratio"],
         layout          ={  'title': 'Kaplan-Meier Survival Curve Example',
-                            'xaxis': {'title': 'Time'},
-                            'yaxis': {'title': 'Survival Probability'}},
+                            "xaxis": {"title": {"text": "Time (months)"}},
+                            "yaxis": {"title": {"text": "Survival Probability"}},},
         title           = "Kaplan-Meier curves",
         config          = {'responsive': True}
     )
@@ -76,7 +76,7 @@ if __name__ == '__main__':
 
 ## Contributing
 
-See [CONTRIBUTING.md](./dash_kaplan_meier/CONTRIBUTING.md)
+See [CONTRIBUTING.md](https://github.com/XLlobet/dash-kaplan-meier/blob/main/dash_kaplan_meier/CONTRIBUTING.md)
 
 ## License
 

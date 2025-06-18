@@ -1,6 +1,6 @@
 Package: dashKaplanMeier
 Title: Reusable React-based UI for Dash apps that computes and plots a Kaplan-Meier curve entirely using raw event and time-to-event data passed from Dash app. It eliminates analysis libraries, making it lightweight and frontend-driven.
-Version: 0.0.1
+Version: 0.0.6
 Description: Reusable React-based UI for Dash apps that computes and plots a Kaplan-Meier curve entirely using raw event and time-to-event data passed from Dash app. It eliminates analysis libraries, making it lightweight and frontend-driven.
 Depends: R (>= 3.0.2)
 Imports: 

@@ -13,14 +13,19 @@ setup(
     name=package_name,
     version=package["version"],
     author=package['author'],
+    author_email="llbt.nvs.x@gmail.com",
     packages=[package_name],
     include_package_data=True,
     license=package['license'],
     description=package.get('description', package_name),
     long_description=long_description,
     long_description_content_type="text/markdown",
-    install_requires=[],
+    install_requires=[
+        "dash",
+        "lifelines",
+    ],
     classifiers = [
         'Framework :: Dash',
     ],    
+    url="https://github.com/XLlobet/dash-kaplan-meier",
 )
